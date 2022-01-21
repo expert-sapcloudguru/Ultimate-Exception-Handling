@@ -1,1 +1,19 @@
-#Sat Nov 27 11:38:58 UTC 2021
+#
+#Fri Jan 21 20:25:26 UTC 2022
+mail_to=dummy_to@domain.com
+mail_mimeType=text/plain
+mail_proxy=none
+mail_from=dummy_from@domain.com
+mail_signatureEncrytionType=none
+mail_creds=dummy credential name
+mail_host=dummy-address
+mail_encoding=UTF-8
+mail_messageAttachments=0
+mail_cc=
+mail_bcc=
+mail_subject=
+mail_timeout=30000
+mail_auth=loginEncrypted
+mail_contentTransferEncoding=auto
+mail_protection=starttls_mandatory
+mail_body=${in.body}

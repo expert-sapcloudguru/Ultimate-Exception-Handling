@@ -59,7 +59,7 @@ Origin-Bundle-Name: exceptionTesting
 SAP-RuntimeProfile: iflmap
 WorkspaceProfile: iflmap
 Bundle-Name: Ultimate Exception Handling
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Bundle-ClassPath: .
 SAP-StartOrder: 1000
 SAP-NodeType: IFLMAP

@@ -8,8 +8,7 @@ def Message processData(Message message) {
     map = message.getProperties();
     logs = map.get("logs");
        
-    logs += body
-    
+    logs = logs.equals("NA") ? body : logs + body  
     message.setProperty("logs", logs);
        
     return message;
